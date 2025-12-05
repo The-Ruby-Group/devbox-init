@@ -99,12 +99,9 @@ export NVM_DIR="$HOME/.nvm"
 # NVM completions
 [ -s "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" ] \
     && \. "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm"
-# Bun completions
-[ -s "$HOMEBREW_PREFIX/share/zsh/site-functions/_bun" ] \
-    && source "$HOMEBREW_PREFIX/share/zsh/site-functions/_bun"
-# Rustup completions
-[ -s "$HOME/.rustup/completions/_rustup" ] \
-    && source "$HOME/.rustup/completions/_rustup"
+# Solana completions
+[ -s "$HOME/.solana/completions.sh" ] \
+    && \. "$HOME/.solana/completions.sh"
 
 source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Enable zsh-syntax-highlighting plugin

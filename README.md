@@ -49,18 +49,14 @@ eval "$(starship init zsh)"
 ```bash
 # Github
 # Github CLI & Git Large File Storage (LFS)
-brew install gh
-brew install git-lfs
+brew install gh git-lfs
 
 # NOTE: There may be an extra little command to initialize git-lfs
+git lfs install
 ```
 
 ```bash
-brew install nvim
-brew install nvm
-brew install zoxide
-brew install zsh-syntax-highlighting
-brew install zsh-autosuggestions
+brew install nvim nvm zoxide zsh-syntax-highlighting zsh-autosuggestions
 ```
 
 ## IDEs
@@ -84,8 +80,14 @@ bun completions
 ```bash
 # Rust programming language
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
+# Solana CLI from Anza
 sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
+
+# Create rustup completions in the expected location
+mkdir -p ~/.zfunc
+rustup completions zsh > ~/.zfunc/_rustup
+mkdir -p ~/.solana
+solana completion > ~/.solana/completions.sh
 ```
 
 ## Rectangle App
