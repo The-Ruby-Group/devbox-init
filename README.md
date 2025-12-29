@@ -63,8 +63,21 @@ brew install nvim nvm zoxide zsh-syntax-highlighting zsh-autosuggestions
 
 1. Visual Studio Code
 
-Install with installer to ensure compatibility with Mac silicon.
-https://code.visualstudio.com/download
+Install from https://code.visualstudio.com/download
+
+Visual Studio Code is a source code editor developed by Microsoft for Windows, Linux, and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.
+
+2. Antigravity
+
+Install from https://antigravity.google/download
+
+Antigravity is a powerful agentic AI coding assistant designed by the Google Deepmind team, built for advanced agentic coding and pair programming.
+
+3. Cursor
+
+Install from https://cursor.com/download
+
+Cursor is an AI-powered code editor built on top of VS Code, designed to help developers write, debug, and optimize code with integrated AI features.
 
 ## Bun
 
