@@ -103,6 +103,20 @@ mkdir -p ~/.solana
 solana completion > ~/.solana/completions.sh
 ```
 
+## Claude Code
+
+Claude Code is an agentic CLI that allows Claude to interact directly with your local development environment.
+
+```bash
+brew install --cask claude-code
+
+# Authenticate with your Anthropic account
+claude
+
+# Run a system health check
+claude doctor
+```
+
 ## Rectangle App
 
 Move and resize windows in macOS using keyboard shortcuts or snap areas: https://rectangleapp.com/
