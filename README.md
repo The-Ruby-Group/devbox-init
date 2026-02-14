@@ -117,6 +117,15 @@ claude
 claude doctor
 ```
 
+## Gemini CLI
+
+```bash
+brew install gemini-cli
+
+# Authenticate with your Google account
+gemini
+```
+
 ## Rectangle App
 
 Move and resize windows in macOS using keyboard shortcuts or snap areas: https://rectangleapp.com/
